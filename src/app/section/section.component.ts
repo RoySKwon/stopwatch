@@ -7,22 +7,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
 
-  present: string = "Welcome";
+  // present: string = "Welcome";
 
   constructor() {
 
    }
 
-   startTime($event){
+/*    startTime($event){
 
     console.log("from buttons Component : ",$event);
      this.present = $event; // 자식에게 받아온 값으로 바꾼다
 
     }
-
+ */
   ngOnInit(): void {
     
-    console.log("SectionOnInit",this.present);
+    // console.log("SectionOnInit",this.present);
   }
 
 }
