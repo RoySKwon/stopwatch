@@ -9,6 +9,7 @@ import { TimeDisplayComponent } from './section/stopwatch/time-display/time-disp
 import { ButtonsComponent } from './section/stopwatch/buttons/buttons.component';
 import { LayoutModule } from './layout/layout.module';
 import { SectionModule } from './section/section.module';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { SectionModule } from './section/section.module';
     BrowserModule,
     LayoutModule,
     SectionModule,
+    AppRoutingModule,
   ],
 
   providers: [
