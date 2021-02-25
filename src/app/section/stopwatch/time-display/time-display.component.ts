@@ -20,6 +20,7 @@ export class TimeDisplayComponent implements OnInit {
   constructor() {}
 
   timeStart() {
+    this.timeStop();//牢磐国按眉 吝汗积己 规瘤
     this.timeInterval = setInterval(() => {
       this.ms++;
       

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-stopwatch',
@@ -8,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 export class StopwatchComponent implements OnInit {
 
   present: string = "Welcome";
+  routingCount;
+  
 
-  constructor() {
+  constructor(
+    private router: Router
+    ) {
 
+   }
+
+   goClock(){
+    this.routingCount++;
+    console.log("stopwatch_routingCount: ",this.routingCount);
+     this.router.navigateByUrl('/clock');
    }
 
    startTime($event){
