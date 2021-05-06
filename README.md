@@ -1,10 +1,12 @@
 # StopWatch with Angular
 ## FrontEnd
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
+
 ##  Moment.js
+
 npm install moment --save   # npm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
 
 ## Development server
 
