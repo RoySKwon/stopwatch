@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ##  Moment.js
 
-npm install moment --save   # npm
+npm install moment --save
 
 
 ## Development server
