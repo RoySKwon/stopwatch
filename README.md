@@ -1,5 +1,4 @@
 # Angular Stopwatch
-## FrontEnd
 
 ## Description:
 
