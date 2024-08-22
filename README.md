@@ -1,12 +1,12 @@
-# StopWatch with Angular
+# Angular Stopwatch
 ## FrontEnd
 
+## Description:
+
+This repository is for practicing Angular by building a stopwatch application. 
+It uses Angular 11 and TypeScript to demonstrate key concepts and techniques in Angular development.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.0.
-
-##  Moment.js
-
-npm install moment --save
-
 
 ## Development server
 
